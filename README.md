@@ -26,6 +26,11 @@ The main objectives of this analysis are to:
 - Power Query
 - DAX
 - Data Visualization
+## 📂 Project Files
+
+- **Power BI Dashboard:** `Retail Business Analysis.pbix`
+- **Dashboard Screenshots:** Executive Summary, Product Analysis, Customer Analysis, and Regional Performance
+- **Project Documentation:** `README.md`  
 
 ## 📈 Dashboard Overview
 
