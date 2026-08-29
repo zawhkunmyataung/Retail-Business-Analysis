@@ -92,20 +92,19 @@ Evaluates business performance across countries, regions, and stores, including:
 
 ### Executive Summary
 
-![Executive Summary](Executive-Summary.png)
+![Executive Summary](Executive%20Summary.png)
 
 ### Product Analysis
 
-![Product Analysis](Product-Analysis.png)
+![Product Analysis](Product%20Analysis.png)
 
 ### Customer Analysis
 
-![Customer Analysis](Customer-Analysis.png)
+![Customer Analysis](Customer%20Analysis.png)
 
 ### Regional Performance
 
-![Regional Performance](Regional-Performance.png)
-
+![Regional Performance](Regional%20Performance.png)
 ## 💡 Key Insights
 
 - The business generated **$1.76M in total revenue** and **$1.05M in total profit**, resulting in a **59.67% profit percentage**.
