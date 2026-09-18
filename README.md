@@ -1,99 +1,191 @@
-# Retail Business Analysis – Power BI
+# Retail Business Analysis
 
-## 📊 Project Overview
+## 📊 Business Overview
 
-This project presents an interactive Power BI dashboard designed to analyse retail business performance across sales, products, customers, and regions.
+This project analyses retail business performance across sales, profitability, products, customers, stores, and geographic markets.
 
-The dashboard provides an overview of key business performance indicators and enables users to explore revenue, profit, product performance, customer characteristics, store performance, and regional trends.
+The analysis focuses on identifying the major drivers of revenue and profit, understanding customer purchasing patterns, comparing regional and store performance, and monitoring product returns.
 
-## 🎯 Project Objectives
+The objective is to answer key business questions such as:
 
-The main objectives of this analysis are to:
+- Which regions and countries generate the most revenue and profit?
+- Which products and brands contribute most to business performance?
+- Which customer segments generate the highest revenue?
+- How does performance vary across store types and individual stores?
+- What product characteristics are associated with higher sales?
+- How does the return rate change over time?
+- Where are there potential areas for further investigation or improvement?
 
-- Evaluate overall revenue, profit, and return performance
-- Identify high-performing products and brands
-- Analyse customer characteristics and purchasing patterns
-- Compare revenue and profit across countries and sales regions
-- Evaluate store and store-type performance
-- Examine revenue and profit trends over time
-- Analyse product characteristics such as fat status and recyclability
-- Identify products with the lowest sales volume
-- Monitor changes in return rate over time
+---
 
-## 🛠️ Tools & Technologies
+## 🎯 Key Business Findings
 
-- Microsoft Power BI
-- Power Query
-- DAX
-- Data Visualization
-## 📂 Project Files
+### Overall Performance
 
-- **Power BI Dashboard:** `Retail Business Analysis.pbix`
-- **Dashboard Screenshots:** Executive Summary, Product Analysis, Customer Analysis, and Regional Performance
-- **Project Documentation:** `README.md`  
+The business generated approximately **$1.76M in revenue** and **$1.05M in profit**, resulting in a **59.67% profit margin**.
 
-## 📈 Dashboard Overview
+The overall return rate remained relatively low throughout the period analysed, ranging from approximately **0.78% to 0.95%**.
 
-The dashboard consists of four main analytical sections:
+This indicates that returns were a relatively small proportion of overall sales, although monitoring changes over time remains important.
 
-### 1. Executive Summary
+---
 
-Provides an overview of the key business performance indicators, including:
+### 🌎 Regional & Geographic Performance
 
-- Total Revenue: $1.76M
-- Total Profit: $1.05M
-- Profit Percentage: 59.67%
-- Quantity Sold: 833.49K
-- Total Returns: 7,087
-- Return Rate: 1%
-- Monthly Revenue Trends
-- Revenue by Sales Region
-- Revenue by Brand
-- Year-over-Year Revenue and Profit Performance
-- Top Purchasing Customer
-- Best-Selling Product
+**North West** was the highest-revenue sales region, generating approximately **$848K**, representing almost half of total revenue.
 
-### 2. Product Analysis
+The **USA** generated approximately **$1.18M in revenue** and **$703K in profit**, making it the largest contributor among the countries analysed.
 
-Analyses product and brand performance, including:
+The concentration of revenue in the North West region and USA suggests that geographic performance is not evenly distributed across the business.
 
-- Top 5 Brands by Revenue and Profit
-- Top 5 Products by Revenue and Profit
-- Bottom 5 Products by Sales Volume
-- Regular vs Low-Fat Product Sales
-- Recyclable vs Non-Recyclable Product Sales
-- Number of Unique Brands
-- Number of Unique Products
-- Average Retail Price
+This creates opportunities to investigate:
 
-### 3. Customer Analysis
+- What drives stronger sales in these markets?
+- Whether customer characteristics differ by region
+- Whether similar strategies could be applied to lower-performing regions
 
-Explores customer characteristics and purchasing behaviour, including:
+---
 
-- Revenue by Occupation
-- Revenue by Age Group
-- Revenue by Education Group
-- Customer Spending by Member Card Type
-- Revenue by Customer Priority
-- Total Customers
-- Active Customers
-- Average Revenue per Customer
+### 🏷️ Product & Brand Performance
 
-### 4. Regional Performance
+**Hermanos** was the highest-revenue brand shown in the analysis.
 
-Evaluates business performance across countries, regions, and stores, including:
+**Tell Tale Fresh Lima Beans** was identified as the leading product based on the dashboard's best-selling metric.
 
-- Revenue and Profit by Country
-- Top 5 Stores by Revenue and Profit
-- Revenue by Store Type
-- Profit Performance across Sales Regions
-- Monthly Return Rate Trends
-- Number of Sales Regions
-- Number of Stores
-- Top Performing Region
-- Top Performing Store
+The product analysis also identified the **bottom-performing products by sales volume**, providing an opportunity to investigate whether these products should receive additional promotion, pricing adjustments, or inventory review.
 
-## 📷 Dashboard Screenshots
+Product characteristics showed that:
+
+- **Regular products:** 64.64% of sales
+- **Low-Fat products:** 35.36% of sales
+- **Recyclable products:** 56.08% of sales
+- **Non-Recyclable products:** 43.92% of sales
+
+The stronger sales share of regular products suggests that customer demand in this dataset is more concentrated in regular products than low-fat alternatives.
+
+---
+
+### 👥 Customer Performance
+
+Customer revenue varied across demographic and membership segments.
+
+**Professional customers** generated the highest revenue among occupation groups, at approximately **$82K**.
+
+Customers aged **55+** generated the highest revenue among the analysed age groups, at approximately **$123K**.
+
+The analysis also compares revenue across:
+
+- Occupation
+- Age group
+- Education group
+- Member card type
+- Customer priority
+
+These comparisons provide a basis for identifying higher-value customer segments and understanding differences in purchasing behaviour.
+
+---
+
+### 🏪 Store Performance
+
+**Supermarkets** generated the highest revenue among store types, at approximately **$789.60K**.
+
+**Store 13** was the highest-performing individual store in the Regional Performance analysis.
+
+The difference in performance between stores provides an opportunity to examine factors such as:
+
+- Store type
+- Geographic location
+- Product mix
+- Customer composition
+- Sales volume
+
+Understanding these differences can help identify operational patterns associated with stronger store performance.
+
+---
+
+## 📈 Business Performance Areas
+
+The analysis covers five major areas:
+
+### 1. Executive Performance
+
+- Revenue
+- Profit
+- Profit margin
+- Quantity sold
+- Returns
+- Return rate
+- Revenue trends
+- Regional performance
+- Brand performance
+- Year-over-year performance
+
+### 2. Product Performance
+
+- Revenue and profit by brand
+- Revenue and profit by product
+- Top and bottom-performing products
+- Regular vs Low-Fat products
+- Recyclable vs Non-Recyclable products
+- Product and brand coverage
+- Average retail price
+
+### 3. Customer Performance
+
+- Revenue by occupation
+- Revenue by age group
+- Revenue by education group
+- Revenue by membership type
+- Revenue by customer priority
+- Total customers
+- Active customers
+- Average revenue per customer
+
+### 4. Regional & Store Performance
+
+- Revenue and profit by country
+- Revenue and profit by sales region
+- Store performance
+- Store-type performance
+- Top-performing stores
+- Return-rate trends
+
+### 5. Trend Analysis
+
+- Monthly revenue trends
+- Year-over-year revenue performance
+- Year-over-year profit performance
+- Monthly return-rate trends
+
+---
+
+## 💡 Business Implications
+
+The analysis highlights several areas that could be explored further:
+
+**1. Geographic concentration**
+
+A significant share of revenue is concentrated in the USA and North West region. Further analysis could examine the factors contributing to this performance and whether similar characteristics exist in lower-performing regions.
+
+**2. Customer segmentation**
+
+Higher revenue from the Professional and 55+ customer groups indicates potential differences in customer value. Further segmentation could examine purchase frequency, average transaction value, and product preferences.
+
+**3. Product portfolio**
+
+The difference between high- and low-performing products provides an opportunity to examine product profitability, sales volume, pricing, and product characteristics when making portfolio decisions.
+
+**4. Store performance**
+
+The variation between stores and store types suggests that location, customer mix, and product mix may influence performance. Further investigation could identify the operational factors associated with stronger-performing stores.
+
+**5. Returns**
+
+Although the overall return rate remains relatively low, monitoring monthly changes can help identify unusual increases and investigate whether specific products, stores, or regions contribute disproportionately to returns.
+
+---
+
+## 📷 Dashboard
 
 ### Executive Summary
 
@@ -110,23 +202,36 @@ Evaluates business performance across countries, regions, and stores, including:
 ### Regional Performance
 
 ![Regional Performance](Regional%20Performance.png)
-## 💡 Key Insights
 
-- The business generated **$1.76M in total revenue** and **$1.05M in total profit**, resulting in a **59.67% profit percentage**.
-- **North West** is the highest-revenue sales region, generating approximately **$848K**.
-- The **USA** generates the highest revenue and profit among the countries analysed, with approximately **$1.18M in revenue** and **$703K in profit**.
-- **Hermanos** is the highest-revenue brand among the brands shown in the Executive Summary.
-- **Tell Tale Fresh Lima Beans** is identified as the best-selling product in the Executive Summary.
-- Customers purchase more **Regular products (64.64%)** than **Low-Fat products (35.36%)**.
-- **Recyclable products account for 56.08% of sales**, compared with 43.92% for non-recyclable products.
-- **Professional** customers generate the highest revenue among the occupation groups, at approximately **$82K**.
-- Customers aged **55+** generate the highest revenue among the age groups, at approximately **$123K**.
-- **Supermarkets** generate the highest revenue among the store types, at approximately **$789.60K**.
-- **Store 13** is identified as the top-performing store in the Regional Performance analysis.
-- The monthly return rate remains relatively low, ranging from approximately **0.78% to 0.95%** across the period shown.
+---
+
+## 🛠️ Analytical Tools
+
+- Microsoft Power BI
+- Power Query
+- DAX
+- Microsoft Excel
+- Data Visualization
+
+---
+
+## 📂 Project Files
+
+- `Retail Business Analysis.pbix` – Power BI dashboard
+- `Executive Summary.png`
+- `Product Analysis.png`
+- `Customer Analysis.png`
+- `Regional Performance.png`
+- `README.md`
+
+---
 
 ## 📌 Conclusion
 
-The dashboard provides an interactive view of retail business performance across multiple dimensions, including sales, products, customers, stores, countries, and regions.
+This analysis provides a business-focused view of retail performance across geographic markets, products, customers, stores, and returns.
 
-The analysis demonstrates how Power BI can be used to transform business data into interactive visualisations and provide meaningful insights to support business decision-making.
+The findings highlight where revenue and profit are concentrated, which customer and product segments contribute most to performance, and where differences between regions and stores warrant further investigation.
+
+The project demonstrates an end-to-end analytical approach:
+
+Business Questions → Data Analysis → KPI Development → Performance Analysis → Insights → Business Implications
